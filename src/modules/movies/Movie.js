@@ -226,9 +226,15 @@ class Movie extends Component {
 									style={styles.tabBar}
 								/>
 							)}>
+<<<<<<< HEAD
 							<Info tabLabel="INFO" info={info} />
 							<Casts tabLabel="CASTS" info={info} getTabHeight={this._getTabHeight} />
 							<Trailers tabLabel="TRAILERS" youtubeVideos={this.state.youtubeVideos} openYoutube={this._openYoutube} getTabHeight={this._getTabHeight} />
+=======
+							<Info tabLabel="Thông tin" info={info} />
+							<Casts tabLabel="Diễn viên" info={info} getTabHeight={this._getTabHeight} />
+							<Trailers tabLabel="Trailers" youtubeVideos={this.state.youtubeVideos} openYoutube={this._openYoutube} getTabHeight={this._getTabHeight} />
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 						</ScrollableTabView>
 					</View>
 				</View>

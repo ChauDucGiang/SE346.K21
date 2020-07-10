@@ -38,7 +38,11 @@ const CardOne = ({ info, viewMovie }) => (
 				</Text>
 				<TouchableOpacity activeOpacity={0.9} onPress={viewMovie.bind(this, info.id)}>
 					<View style={styles.viewButton}>
+<<<<<<< HEAD
 						<Text style={styles.viewButtonText}>View Details</Text>
+=======
+						<Text style={styles.viewButtonText}>Xem Chi Tiết</Text>
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 					</View>
 				</TouchableOpacity>
 			</View>

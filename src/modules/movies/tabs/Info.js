@@ -18,13 +18,18 @@ const Info = ({ info }) => {
 		<View style={styles.container}>
 			<View style={styles.overview}>
 				<Text style={styles.label}>
+<<<<<<< HEAD
 					Overview
+=======
+					Giới thiệu
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 				</Text>
 				<Text style={styles.overviewText}>
 					{info.overview}
 				</Text>
 			</View>
 			<View style={styles.labelRow}>
+<<<<<<< HEAD
 				<Text style={styles.label}>Release Date</Text>
 				<Text style={styles.value}>{releaseDate}</Text>
 			</View>
@@ -34,6 +39,17 @@ const Info = ({ info }) => {
 			</View>
 			<View style={styles.labelRow}>
 				<Text style={styles.label}>Budget</Text>
+=======
+				<Text style={styles.label}>Ngày ra mắt</Text>
+				<Text style={styles.value}>{releaseDate}</Text>
+			</View>
+			<View style={styles.labelRow}>
+				<Text style={styles.label}>Công chiếu</Text>
+				<Text style={styles.value}>{director[0].name}</Text>
+			</View>
+			<View style={styles.labelRow}>
+				<Text style={styles.label}>Chi phí</Text>
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 				<Text style={styles.value}>{budget}</Text>
 			</View>
 		</View>

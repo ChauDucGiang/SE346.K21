@@ -151,12 +151,21 @@ class Movies extends Component {
 				</Swiper>
 				<View>
 					<View style={styles.listHeading}>
+<<<<<<< HEAD
 						<Text style={styles.listHeadingLeft}>Popular</Text>
 						<TouchableOpacity>
 							<Text
 								style={styles.listHeadingRight}
 								onPress={this._viewMoviesList.bind(this, 'popular', 'Popular')}>
 								See all
+=======
+						<Text style={styles.listHeadingLeft}>Phổ Biến</Text>
+						<TouchableOpacity>
+							<Text
+								style={styles.listHeadingRight}
+								onPress={this._viewMoviesList.bind(this, 'popular', 'Phổ Biến')}>
+								Tất cả
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 							</Text>
 						</TouchableOpacity>
 					</View>
@@ -171,16 +180,26 @@ class Movies extends Component {
 								{iconPlay}
 								<Text
 									style={styles.browseListItemText}
+<<<<<<< HEAD
 									onPress={this._viewMoviesList.bind(this, 'now_playing', 'Now Playing')}>
 									Now Playing
+=======
+									onPress={this._viewMoviesList.bind(this, 'now_playing', 'Đang Xem')}>
+									Đang Xem
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 								</Text>
 							</View>
 						</TouchableOpacity>
 						<TouchableOpacity activeOpacity={0.7}>
 							<View style={styles.browseListItem}>
 								{iconTop}
+<<<<<<< HEAD
 								<Text style={styles.browseListItemText} onPress={this._viewMoviesList.bind(this, 'top_rated', 'Top Rated')}>
 									Top Rated
+=======
+								<Text style={styles.browseListItemText} onPress={this._viewMoviesList.bind(this, 'top_rated', 'Top Đánh Giá')}>
+									Top Đánh Giá
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 								</Text>
 							</View>
 						</TouchableOpacity>
@@ -189,8 +208,13 @@ class Movies extends Component {
 								{iconUp}
 								<Text
 									style={styles.browseListItemText}
+<<<<<<< HEAD
 									onPress={this._viewMoviesList.bind(this, 'upcoming', 'Upcoming')}>
 									Upcoming
+=======
+									onPress={this._viewMoviesList.bind(this, 'upcoming', 'Sắp Ra Mắt')}>
+									Sắp Ra Mắt
+>>>>>>> b5f9c509efda7a658ec97032e8ce21856c20a048
 								</Text>
 							</View>
 						</TouchableOpacity>
